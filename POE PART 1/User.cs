@@ -12,10 +12,6 @@ namespace POE_PART_1
         public string userId { get; set; }
 
         public DateTime lastInteration { get; set; }
-        /*public User(string name, string useId) //Constructor i chose this one as it is asking the user to insset not the auto generator
-        {
-            this.name = name;
-            this.useId = useId;
-        }Y*/
+       
     }
 }

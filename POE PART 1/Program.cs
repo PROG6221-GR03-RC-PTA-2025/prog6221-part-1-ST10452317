@@ -27,7 +27,9 @@ namespace POE_PART_1
 
             while (true)
             {
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.Write("User: ");
+                Console.ForegroundColor = ConsoleColor.White;
                 string input = Console.ReadLine();
 
                 if (input.ToLower().Equals("exit"))
@@ -35,13 +37,14 @@ namespace POE_PART_1
                     break;
                 }
 
-                string response = chatbotObj.getResponse(input);
+                string response = chatbotObj.getResponse(input, UserObj);
 
-               // Console.ForegroundColor = ConsoleColor.Red;
                 newSession.logMessage("User: " + input);
-               // Console.ForegroundColor = ConsoleColor.Green;
-                newSession.logMessage("User: " + chatbotObj.getResponse(input));
-                Console.WriteLine("Chatbot: "+chatbotObj.getResponse(input));
+                newSession.logMessage("User: " + chatbotObj.getResponse(input, UserObj));
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.Write("Chatbot: ");
+                Console.ForegroundColor = ConsoleColor.White;
+                Console.WriteLine(chatbotObj.getResponse(input, UserObj));
             }
             newSession.endSession();
         }

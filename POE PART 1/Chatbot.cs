@@ -9,12 +9,37 @@ namespace POE_PART_1
 {
     internal class Chatbot
     {
-        public string name { get; set; } = "ChatBot"; 
+        public string name { get; set; } = "ChatBot";
         public DateTime startTime { get; set; } = DateTime.Now;
+        public Dictionary<string, string> BotResponses = new Dictionary<string, string> {
+            { "what is your purpose", "My purpose is to keep you safe online" },
+            { "thanks", "You're welcome! have a good day"}
+        };
 
-        public string getResponse(string userInput)
+        public string getResponse(string userInput, User newUser)
         {
-            return "I'm still learning";
+            userInput = userInput.ToLower();
+
+            if (userInput.Contains("hello") || userInput.Contains("hi"))
+            {
+                return "hello " + newUser.name + ", How can i assist you today?";
+            }
+            else if (userInput.Contains("how are you"))
+            {
+                return "i'm just a bot, but i'm doing great! how about you?";
+            }
+            else if (userInput.Contains("good") || userInput.Contains("fine") || userInput.Contains("great") || userInput.Contains("okay"))
+            {
+                return "That's good, how can i assist you today";
+            }
+            else if (BotResponses.TryGetValue(userInput, out string value))
+            {
+                return value;
+            }
+            else
+            {
+                return "could you please paraphrase";
+            }
         }
 
         public string getGreeting()

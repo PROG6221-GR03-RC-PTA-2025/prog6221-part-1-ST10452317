@@ -12,3 +12,10 @@ C:\Users\RC_Student_lab\Desktop\POE PART 1\obj\Debug\POE PART 1.csproj.AssemblyR
 C:\Users\RC_Student_lab\Desktop\POE PART 1\obj\Debug\POE PART 1.csproj.CoreCompileInputs.cache
 C:\Users\RC_Student_lab\Desktop\POE PART 1\obj\Debug\POE PART 1.exe
 C:\Users\RC_Student_lab\Desktop\POE PART 1\obj\Debug\POE PART 1.pdb
+C:\Users\RC_Student_lab\Desktop\Final POE Project\prog6221-part-1-ST10452317\POE PART 1\obj\Debug\POE PART 1.csproj.AssemblyReference.cache
+C:\Users\RC_Student_lab\Desktop\Final POE Project\prog6221-part-1-ST10452317\POE PART 1\obj\Debug\POE PART 1.csproj.CoreCompileInputs.cache
+C:\Users\RC_Student_lab\Desktop\Final POE Project\prog6221-part-1-ST10452317\POE PART 1\obj\Debug\POE PART 1.exe
+C:\Users\RC_Student_lab\Desktop\Final POE Project\prog6221-part-1-ST10452317\POE PART 1\obj\Debug\POE PART 1.pdb
+C:\Users\RC_Student_lab\Desktop\Final POE Project\prog6221-part-1-ST10452317\POE PART 1\bin\Debug\POE PART 1.exe.config
+C:\Users\RC_Student_lab\Desktop\Final POE Project\prog6221-part-1-ST10452317\POE PART 1\bin\Debug\POE PART 1.exe
+C:\Users\RC_Student_lab\Desktop\Final POE Project\prog6221-part-1-ST10452317\POE PART 1\bin\Debug\POE PART 1.pdb

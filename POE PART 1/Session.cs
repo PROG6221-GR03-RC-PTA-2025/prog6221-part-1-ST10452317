@@ -9,12 +9,12 @@ namespace POE_PART_1
 {
     internal class Session
     {
-        public User chatUser {  get; set; }
+        public User chatUser { get; set; }
         public Chatbot bot { get; set; }
         public DateTime sessionStart { get; set; }
 
         public ArrayList chatHistory { get; set; }
-        
+
         public Session(User user, Chatbot bot)
         {
             this.chatUser = user;
@@ -25,13 +25,24 @@ namespace POE_PART_1
         public void startSession()
         {
             sessionStart = DateTime.Now;
-            Console.WriteLine(bot.getGreeting() + " i am " + chatUser.name + " How can i assist you today");
-            Console.WriteLine(" Session started at: "+ sessionStart);
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.Write("Chatbot: ");
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine(bot.getGreeting() + "  " + chatUser.name + " How can i assist you today");
+            Console.WriteLine();
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine(" Session started at: " + sessionStart);
+            Console.WriteLine("Type exit to end the session");
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine();
         }
 
         public void endSession()
         {
-            Console.WriteLine("Session ended. Total messages exchanged: "+chatHistory.Count);
+            Console.WriteLine();
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine("Session ended. Total messages exchanged: " + chatHistory.Count);
+            Console.ForegroundColor = ConsoleColor.White;
         }
 
         public void logMessage(string message)
