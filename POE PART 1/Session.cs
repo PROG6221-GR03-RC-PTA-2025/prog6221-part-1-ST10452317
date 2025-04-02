@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Figgle;
+
 
 namespace POE_PART_1
 {
@@ -29,6 +31,7 @@ namespace POE_PART_1
             Console.Write("Chatbot: ");
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine(bot.getGreeting() + "  " + chatUser.name + " How can i assist you today");
+            //Console.WriteLine(FiggleFonts.Small.Render("Welcome to CYBERSAFE"+bot.getGreeting() + chatUser.name + " How can i help you"));
             Console.WriteLine();
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine(" Session started at: " + sessionStart);

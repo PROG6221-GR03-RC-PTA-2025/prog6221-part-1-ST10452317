@@ -36,6 +36,9 @@
     <Reference Include="Colorful.Console, Version=1.2.15.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Colorful.Console.1.2.15\lib\net461\Colorful.Console.dll</HintPath>
     </Reference>
+    <Reference Include="Figgle, Version=0.5.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Figgle.0.5.1\lib\netstandard2.0\Figgle.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />

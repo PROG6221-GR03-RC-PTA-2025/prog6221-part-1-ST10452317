@@ -21,3 +21,5 @@ C:\Users\RC_Student_lab\Desktop\Final POE Project\prog6221-part-1-ST10452317\POE
 C:\Users\RC_Student_lab\Desktop\Final POE Project\prog6221-part-1-ST10452317\POE PART 1\bin\Debug\POE PART 1.pdb
 C:\Users\RC_Student_lab\Desktop\Final POE Project\prog6221-part-1-ST10452317\POE PART 1\bin\Debug\Colorful.Console.dll
 C:\Users\RC_Student_lab\Desktop\Final POE Project\prog6221-part-1-ST10452317\POE PART 1\obj\Debug\POE PART 1.csproj.Up2Date
+C:\Users\RC_Student_lab\Desktop\Final POE Project\prog6221-part-1-ST10452317\POE PART 1\bin\Debug\Figgle.dll
+C:\Users\RC_Student_lab\Desktop\Final POE Project\prog6221-part-1-ST10452317\POE PART 1\bin\Debug\Figgle.xml

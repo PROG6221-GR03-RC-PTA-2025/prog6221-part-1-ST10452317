@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Media;
+using Figgle;
 
 namespace POE_PART_1
 {
@@ -11,10 +12,12 @@ namespace POE_PART_1
     {
         static void Main(string[] args)
         {
+            //adding voice greeting
             SoundPlayer soundPlayer = new SoundPlayer("Greeting.wav");
             soundPlayer.Load();
             soundPlayer.PlaySync();
-
+            //adding ASCII logo art
+            Console.WriteLine(FiggleFonts.Standard.Render("CYBERSAFE"));
             string Name;
 
             Console.Write("Enter your name: ");
@@ -32,6 +35,7 @@ namespace POE_PART_1
 
             while (true)
             {
+                
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.Write("User: ");
                 Console.ForegroundColor = ConsoleColor.White;
