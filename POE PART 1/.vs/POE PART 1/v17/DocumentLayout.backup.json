@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\RC_Student_lab\\Desktop\\Final POE Project\\prog6221-part-1-ST10452317\\POE PART 1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{35CE7E9E-5967-4C84-8F6B-580F59CE6CD5}|POE PART 1.csproj|c:\\users\\rc_student_lab\\desktop\\final poe project\\prog6221-part-1-st10452317\\poe part 1\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35CE7E9E-5967-4C84-8F6B-580F59CE6CD5}|POE PART 1.csproj|solutionrelative:session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35CE7E9E-5967-4C84-8F6B-580F59CE6CD5}|POE PART 1.csproj|C:\\Users\\RC_Student_lab\\Desktop\\Final POE Project\\prog6221-part-1-ST10452317\\POE PART 1\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35CE7E9E-5967-4C84-8F6B-580F59CE6CD5}|POE PART 1.csproj|solutionrelative:user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35CE7E9E-5967-4C84-8F6B-580F59CE6CD5}|POE PART 1.csproj|C:\\Users\\RC_Student_lab\\Desktop\\Final POE Project\\prog6221-part-1-ST10452317\\POE PART 1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35CE7E9E-5967-4C84-8F6B-580F59CE6CD5}|POE PART 1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{35CE7E9E-5967-4C84-8F6B-580F59CE6CD5}|POE PART 1.csproj|C:\\Users\\RC_Student_lab\\Desktop\\Final POE Project\\prog6221-part-1-ST10452317\\POE PART 1\\chatbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35CE7E9E-5967-4C84-8F6B-580F59CE6CD5}|POE PART 1.csproj|solutionrelative:chatbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35CE7E9E-5967-4C84-8F6B-580F59CE6CD5}|POE PART 1.csproj|C:\\Users\\RC_Student_lab\\Desktop\\Final POE Project\\prog6221-part-1-ST10452317\\POE PART 1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35CE7E9E-5967-4C84-8F6B-580F59CE6CD5}|POE PART 1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35CE7E9E-5967-4C84-8F6B-580F59CE6CD5}|POE PART 1.csproj|c:\\users\\rc_student_lab\\desktop\\final poe project\\prog6221-part-1-st10452317\\poe part 1\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35CE7E9E-5967-4C84-8F6B-580F59CE6CD5}|POE PART 1.csproj|solutionrelative:session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35CE7E9E-5967-4C84-8F6B-580F59CE6CD5}|POE PART 1.csproj|C:\\Users\\RC_Student_lab\\Desktop\\Final POE Project\\prog6221-part-1-ST10452317\\POE PART 1\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35CE7E9E-5967-4C84-8F6B-580F59CE6CD5}|POE PART 1.csproj|solutionrelative:user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\RC_Student_lab\\Desktop\\Final POE Project\\prog6221-part-1-ST10452317\\POE PART 1\\User.cs",
               "RelativeDocumentMoniker": "User.cs",
@@ -42,40 +42,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Session.cs",
               "DocumentMoniker": "C:\\Users\\RC_Student_lab\\Desktop\\Final POE Project\\prog6221-part-1-ST10452317\\POE PART 1\\Session.cs",
               "RelativeDocumentMoniker": "Session.cs",
               "ToolTip": "C:\\Users\\RC_Student_lab\\Desktop\\Final POE Project\\prog6221-part-1-ST10452317\\POE PART 1\\Session.cs",
               "RelativeToolTip": "Session.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAADMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-02T13:40:39.259Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\RC_Student_lab\\Desktop\\Final POE Project\\prog6221-part-1-ST10452317\\POE PART 1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\RC_Student_lab\\Desktop\\Final POE Project\\prog6221-part-1-ST10452317\\POE PART 1\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAADAAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T13:40:35.727Z"
+              "WhenOpened": "2025-04-02T13:40:35.727Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Chatbot.cs",
               "DocumentMoniker": "C:\\Users\\RC_Student_lab\\Desktop\\Final POE Project\\prog6221-part-1-ST10452317\\POE PART 1\\Chatbot.cs",
               "RelativeDocumentMoniker": "Chatbot.cs",
               "ToolTip": "C:\\Users\\RC_Student_lab\\Desktop\\Final POE Project\\prog6221-part-1-ST10452317\\POE PART 1\\Chatbot.cs",
               "RelativeToolTip": "Chatbot.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAIwDwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAIwBMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T13:40:33.618Z"
+              "WhenOpened": "2025-04-02T13:40:33.618Z",
+              "EditorCaption": ""
             }
           ]
         }

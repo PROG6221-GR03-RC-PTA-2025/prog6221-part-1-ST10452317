@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Media;
 
 namespace POE_PART_1
 {
@@ -10,6 +11,10 @@ namespace POE_PART_1
     {
         static void Main(string[] args)
         {
+            SoundPlayer player = new SoundPlayer("Greeting.wav");
+            player.Load();
+            player.PlaySync();
+           
             string Name;
 
             Console.Write("Enter your name: ");
