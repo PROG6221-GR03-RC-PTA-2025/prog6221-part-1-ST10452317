@@ -14,7 +14,7 @@ namespace POE_PART_1
             SoundPlayer player = new SoundPlayer("Greeting.wav");
             player.Load();
             player.PlaySync();
-           
+
             string Name;
 
             Console.Write("Enter your name: ");
