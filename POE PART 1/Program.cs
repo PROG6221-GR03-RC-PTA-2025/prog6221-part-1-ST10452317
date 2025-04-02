@@ -11,9 +11,9 @@ namespace POE_PART_1
     {
         static void Main(string[] args)
         {
-            SoundPlayer player = new SoundPlayer("Greeting.wav");
-            player.Load();
-            player.PlaySync();
+            SoundPlayer soundPlayer = new SoundPlayer("Greeting.wav");
+            soundPlayer.Load();
+            soundPlayer.PlaySync();
 
             string Name;
 
