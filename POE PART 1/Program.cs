@@ -40,10 +40,21 @@ namespace POE_PART_1
                 Console.Write("User: ");
                 Console.ForegroundColor = ConsoleColor.White;
                 string input = Console.ReadLine();
+                
+               
 
                 if (input.ToLower().Equals("exit"))
                 {
                     break;
+                }
+
+                //Validating the legnth of characters
+                if (input.Length >210)
+                {
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.Write("Chatbot: ");
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.WriteLine("You cannot enter more than 210 characters");
                 }
 
                 string response = chatbotObj.getResponse(input, UserObj);

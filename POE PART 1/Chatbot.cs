@@ -36,6 +36,11 @@ namespace POE_PART_1
             {
                 return value;
             }
+            //validating empty user Input
+            else if (string.IsNullOrEmpty(userInput))
+            {
+              return ("input cannot be empty");
+            }
             else
             {
                 return "could you please paraphrase";
