@@ -16,6 +16,7 @@ namespace POE_PART_1
             SoundPlayer soundPlayer = new SoundPlayer("Greeting.wav");
             soundPlayer.Load();
             soundPlayer.PlaySync();
+
             //adding ASCII logo art
             Console.WriteLine(FiggleFonts.Standard.Render("CYBERSAFE"));
             string Name;

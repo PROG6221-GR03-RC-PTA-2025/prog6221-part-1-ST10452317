@@ -30,8 +30,8 @@ namespace POE_PART_1
             Console.ForegroundColor = ConsoleColor.Green;
             Console.Write("Chatbot: ");
             Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine(bot.getGreeting() + "  " + chatUser.name + " How can i assist you today");
-            //Console.WriteLine(FiggleFonts.Small.Render("Welcome to CYBERSAFE"+bot.getGreeting() + chatUser.name + " How can i help you"));
+           // Console.WriteLine(bot.getGreeting() + "  " + chatUser.name + " How can i assist you today");
+            Console.WriteLine(FiggleFonts.Standard.Render("Welcome to CYBERSAFE"));
             Console.WriteLine();
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine(" Session started at: " + sessionStart);
