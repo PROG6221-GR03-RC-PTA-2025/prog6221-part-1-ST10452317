@@ -27,12 +27,9 @@ namespace POE_PART_1
         public void startSession()
         {
             sessionStart = DateTime.Now;
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.Write("Chatbot: ");
-            Console.ForegroundColor = ConsoleColor.White;
-           // Console.WriteLine(bot.getGreeting() + "  " + chatUser.name + " How can i assist you today");
-            Console.WriteLine(FiggleFonts.Standard.Render("Welcome to CYBERSAFE"));
-            Console.WriteLine();
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine(FiggleFonts.Small.Render("***Welcome to CYBERSAFE***"));
+            Console.WriteLine("*********************************************************************************************************************");
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine(" Session started at: " + sessionStart);
             Console.WriteLine("Type exit to end the session");

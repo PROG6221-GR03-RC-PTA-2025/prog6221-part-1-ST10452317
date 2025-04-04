@@ -12,26 +12,28 @@ namespace POE_PART_1
     {
         static void Main(string[] args)
         {
+            Console.SetWindowSize(Console.LargestWindowWidth, Console.WindowHeight);
+            //adding ASCII logo art
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine("*********************************************************************************************************************");
+            Console.WriteLine(FiggleFonts.Standard.Render("CYBERSAFE"));
+            Console.WriteLine("*********************************************************************************************************************");
+            Console.ForegroundColor = ConsoleColor.White;
+
             //adding voice greeting
             SoundPlayer soundPlayer = new SoundPlayer("Greeting.wav");
             soundPlayer.Load();
             soundPlayer.PlaySync();
 
-            //adding ASCII logo art
-            Console.WriteLine(FiggleFonts.Standard.Render("CYBERSAFE"));
             string Name;
-
             Console.Write("Enter your name: ");
             Name = Console.ReadLine();
 
             User UserObj = new User();
-
             UserObj.name = Name;
             UserObj.userId = Guid.NewGuid().ToString();
-
             Chatbot chatbotObj = new Chatbot();
             Session newSession = new Session(UserObj, chatbotObj); //same as obj method
-
             newSession.startSession();
 
             while (true)
@@ -56,7 +58,6 @@ namespace POE_PART_1
                 }
 
                 string response = chatbotObj.getResponse(input, UserObj);
-
                 newSession.logMessage("User: " + input);
                 newSession.logMessage("User: " + chatbotObj.getResponse(input, UserObj));
                 Console.ForegroundColor = ConsoleColor.Green;
