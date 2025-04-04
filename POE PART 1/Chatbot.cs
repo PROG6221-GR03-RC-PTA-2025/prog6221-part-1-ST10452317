@@ -26,7 +26,6 @@ namespace POE_PART_1
         {
             userInput = userInput.ToLower();
            
-           
             if (userInput.Contains("hello")) //|| userInput.Contains("hi"))
             {
                 return "hello " + newUser.name + ", How can i assist you today?";
@@ -39,12 +38,9 @@ namespace POE_PART_1
             {
                 return "That's good, how can i assist you today?";
             }
-
             else if (BotResponses.TryGetValue(userInput, out string value))
             {
-
                 return value;
-
             }
             //validating empty user Input
             else if (string.IsNullOrEmpty(userInput))

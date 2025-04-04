@@ -36,13 +36,10 @@ namespace POE_PART_1
 
             while (true)
             {
-                
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.Write("User: ");
                 Console.ForegroundColor = ConsoleColor.White;
                 string input = Console.ReadLine();
-                
-               
 
                 if (input.ToLower().Equals("exit"))
                 {
